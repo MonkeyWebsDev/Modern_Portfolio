@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <video class="back-vid" autoplay muted plays-inline src="videos/galaxy.mp4" type = "video/mp4"></video>
+
+        <header>
+            <div class="left">
+                <img src="images/Duplo__Logo.png" alt="logo.png">
+                <h1><span class="gradient">Duplo</span>WebDevelopment</h1>
+            </div>
+
+            <ul>
+                <li><a href="#!">Обо мне</a></li>
+                <li><a href="#!">Навыки</a></li>
+                <li><a href="#!">Проекты</a></li>
+            </ul>
+
+            <div class="box-icons">
+                <a href="https://t.me/dontfrent"><i class='bxl  bx-telegram'  ></i> </a>
+                <a href="#"><i class='bxl  bx-github'  ></i> </a>
+                <a href="https://vk.com/dontfrent"><i class='bxl  bx-vk'  ></i> </a>
+            </div>
+        </header>
+
+        <div class="blackhole-box">
+            <video loop autoplay muted plays-inline src="videos/blackhole.mp4" type="video/mp4"></video>
+        </div>
+
+
+
+        <section class="hero">
+            <div class="hero-info autoBlur">
+
+                <div class="hero-info-title">
+                    <i class='bxl  bx-sketch'  ></i> 
+                    Портфолио фронтенд-разработчика
+                </div>
+
+                <h1>Создание <span class="gradient">идеального</span> проекта <span class="gradient">для вас</span></h1>
+
+                <p>Я фронтенд-разработчик с опытом разработки веб-сайтов, 
+                    автоматизации их под мобильные устройства. Проверьте мои навыки.</p>
+
+                <button><i class='bxd  bx-send'  ></i> <a href="https://t.me/dontfrent">Связаться со мной</a></button>
+            </div>
+            <div class="hero-vid-box">
+                <video class="autoBlur" autoplay loop muted plays-inline src="videos/hero-video.mp4" type="video/mp4"></video>
+            </div>
+            <div class="scroll-down"></div>
+        </section>
+
+
+
+        <section class="info-section">
+            <h1 class="section-title autoDisplay">Всем привет!👋</h1>
+            <div class="info-cards">
+                <div class="card">
+                    <h1>Меня зовут Макс</h1>
+                    <p>У меня не так много опыта в веб-дизайне, 
+                        но если вы видите этот сайт, значит, у меня явно получилось 
+                        с ним взаимодействовать.😉</p>
+                    <img src="images/grid1.png" alt="card-image">
+                </div>
+                <div class="card">
+                    <h1>Мой Tech Stack</h1>
+                    <p>Я специализируюсь на различных фреймворках и инструментах, которые позволяют мне создавать 
+                         надежные и масштабируемые приложения.</p>
+                    <img src="images/grid2.png" alt="card-image">
+                </div>
+                <div class="card">
+                    <h1>Я очень гибкий в вопросах коммуникации и географического расположения</h1>
+                    <p>Я нахожусь в России (Калининград) и открыт для удаленной работы по всему миру.</p>
+                    <video autoplay loop muted plays-inline src="videos/glob.mp4" type="video/mp4"></video>
+
+                    <button><i class='bxd  bx-unlink'  ></i><a href="https://t.me/dontfrent">Связать со мной</a></button>
+                </div>
+                <div class="card">
+                    <h1>Моя страсть к программированию</h1>
+                    <p>Создание сайтов для меня — это не просто работа или хобби. 
+                        Это то, чем я живу. Это способ, с помощью которого я могу 
+                        показать людям мир, и я хочу делать это по максимуму.</p>
+                    <img src="images/grid4.png" alt="card-image">
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="my-project">
+            <h1 class="section-title autoDisplay">Мои проекты 🧑‍💻</h1>
+            <div class="project-card">
+                <div class="project-vidbox">
+                    <video class="autoBlur" id = "projectVideo1" src="videos/project1.mp4"></video>
+                </div>
+                <div class="project-info fadeInRight">
+                    <h1>Animated <span class="gradient">Gaming</span> Website</h1>
+                    <p>Анимированный игровой вебсайт. Создан исключительно как шаблон - одностраничник.
+                        не имеет переходных ссылок, но все кнопки и плашки функциональны.
+                        На главном экране через js можно менять видео через скрытую 
+                        кнопку в центре. 
+                    </p>
+                    <button><i class='bxd  bx-unlink'  ></i><a href="https://maxon456duplo.github.io/Gaming__Website/">Сайт</a></button>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-vidbox">
+                    <video class="autoBlur" id = "projectVideo2" muted src="videos/project2.mp4"></video>
+                </div>
+                <div class="project-info fadeInRight">
+                    <h1>Modern <span class="gradient">Portfolio</span> Website</h1>
+                    <p>Современный сайт портфолио. Переходить по ссылке ниже нет смысла,
+                        так как вы уже на данном сайте. Веб - приложение создано с 
+                        обширным использованием html и css, а так же применялся js для
+                        воспроизведения видео слева при наведении мышью. 
+                    </p>
+                    <button><i class='bxd  bx-unlink'  ></i>сайт</button>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-vidbox">
+                    <video class="autoBlur" id = "projectVideo3" muted src="videos/project3.mp4"></video>
+                </div>
+                <div class="project-info fadeInRight">
+                    <h1>Website with <span class="gradient">Lens Effect</span></h1>
+                    <p>Веб-сайт с эффектом линзы. плотно применялся js для создания
+                        дождя. По сути это один из первых сайтов. Был изучен и создани
+                        для изучения современного метода демонстации страницы.
+                    </p>
+                    <button><i class='bxd  bx-unlink'  ></i><a href="https://maxon456duplo.github.io/3D_Lens/">Сайт</a></button>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-vidbox">
+                    <video class="autoBlur" id = "projectVideo4" muted src="videos/project4.mp4"></video>
+                </div>
+                <div class="project-info fadeInRight">
+                    <h1><span class="gradient">Parallax effect</span> Website</h1>
+                    <p>Веб-сайт с эфектом параллакса. При прокрутке меняется положение
+                        фонов и наслоенных изображений таким образом, что получается
+                        интересный эффект параллакса. Сайт сделан как тестовый.
+                    </p>
+                    <button><i class='bxd  bx-unlink'  ></i><a href="https://maxon456duplo.github.io/Parallax_Effect/">Сайт</a></button>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+        <section class="skills-section">
+            <h1 class="section-title autoDisplay">Навыки 🛠</h1>
+
+            <div class="skills-box">
+                <img class="skills-img" src="images/digital brain (2).png" alt="skills image">
+            
+                <div class="designer">
+                    <h1 class="gradient">Дизайнер <i class='bx  bx-laptop-alt'  ></i></h1>
+                    <p>3 года я обучался видеомонтажу, съемке на профессиональную технику,
+                        принципам работы с композицией, типографикой и прочим. И такой 
+                        разносторонний опыт очень часто помогает в нынешней работе 
+                        фронтенд-разработчика.</p>
+                </div>
+                <div class="coder">
+                    <h1 class="gradient">Кодер <i class='bx  bx-code-alt'  ></i> </h1>
+                    <p>Как програмист я обучался 4 года в университете, и сейчас выйдя совсем
+                        зеленым я почти за 2 месяца изучил основные правила работы с HTML, CSS,
+                        JS, React и продолжаю поглащать знания в этой сфере.
+                    </p>
+                </div>
+
+                <div class="slider" reverse="true" style="
+                    --width: 100px;
+                    --height: 100px;
+                    --quantity: 9;
+                ">
+                    <div class="list">
+                        <div class="item" style="--position: 1"><img src="images/1.png" alt="slider-image"></div>
+                        <div class="item" style="--position: 2"><img src="images/2.png" alt="slider-image"></div>
+                        <div class="item" style="--position: 3"><img src="images/3.png" alt="slider-image"></div>
+                        <div class="item" style="--position: 4"><img src="images/4.png" alt="slider-image"></div>
+                        <div class="item" style="--position: 5"><img src="images/5.png" alt="slider-image"></div>
+                        <div class="item" style="--position: 6"><img src="images/6.png" alt="slider-image"></div>
+                        <div class="item" style="--position: 7"><img src="images/7.png" alt="slider-image"></div>
+                        <div class="item" style="--position: 8"><img src="images/8.png" alt="slider-image"></div>
+                        <div class="item" style="--position: 9"><img src="images/9.png" alt="slider-image"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="contact-section">
+            <h1 class="section-title autoDisplay">Контакты🤳</h1>
+
+            <div class="social-box autoBlur">
+                <a href="#!"><i class='bx  bx-phone'  ></i> +7 911 853 80 84</a>
+                <a href="https://t.me/dontfrent"><i class='bxl  bx-telegram'  ></i> @Dontfrent</a>
+                <a href="mailto:maxhood2018@gmail.com?subject=Хочу заказать сайт"><i class='bx  bx-envelope'  ></i>  maxhood2018@gmail.com</a>
+            
+                <div class="social-icons">
+                <a href="#!"><i class='bxl  bx-youtube'  ></i> </a>
+                <a href="#!"><i class='bxl  bx-instagram-alt'></i> </a>
+                <a href="#!"><i class='bxl  bx-tiktok'  ></i> </a>
+                </div>
+            </div>
+            
+            <form class="contact-box autoBlur" action="https://formspree.io/f/xvgbqlvr" method="POST">
+                <p>Если я смог вас заинтересовать как работник, вам интересно создание сайтов,
+                    или вы просто хотите пообщаться, оставьте мне сообщение, и я отвечу вам как можно скорее!
+                </p>
+                
+                <p>Ф.И.О.</p>
+                <input type="text" name="name" placeholder="Напишите ваше Ф.И.О." required>
+
+                <p>Ваш email-адрес</p>
+                <input type="email" name="email" placeholder="Напишите ваш email" required>
+
+                <p>Ваше сообщение</p>
+                <input class="input-message" type="text" name="message" placeholder="Напишите что хотите..." required>
+
+                <button type="submit"><i class='bxd  bxs-send bx-flip-horizontal'  ></i> Отправить</button>
+            </form>
+        </section>
+
+
+        <footer>
+            <h1>ⓒDuplo Web Development 2025. All rights reserved </h1>
+        </footer>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>
